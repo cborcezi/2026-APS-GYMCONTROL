@@ -14,7 +14,7 @@ IFPR, Centro de Referência Ponta Grossa. Técnico em Informática Integrado ao 
 <!-- Três a cinco frases para quem nunca ouviu falar do seu sistema. Qual é o problema, para quem, e o que o sistema faz a respeito.
      Escreva depois de terminar a 4.1. É um resumo dela, com as suas palavras. -->
 
-_Escreva aqui a apresentação do projeto._
+O GYMCONTROL é um sistema para controlar as mensalidades dos alunos de uma academia. Ele permite registrar pagamentos, consultar mensalidades em atraso e acompanhar o histórico de pagamentos.
 
 ## Documento do projeto
 

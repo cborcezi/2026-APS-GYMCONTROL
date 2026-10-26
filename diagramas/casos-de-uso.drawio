@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="gymcontrol-use-cases" name="Página-1">
+    <mxGraphModel dx="2049" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=18;align=center;verticalAlign=top;spacingTop=12;" value="GYMCONTROL" vertex="1">
+          <mxGeometry height="570" width="640" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=14;" value="Administrador" vertex="1">
+          <mxGeometry height="120" width="70" x="90" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_aluno" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=14;" value="Aluno" vertex="1">
+          <mxGeometry height="120" width="70" x="990" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="Autenticar" vertex="1">
+          <mxGeometry height="60" width="220" x="475" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_cadastro" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="cadastrarAluno" vertex="1">
+          <mxGeometry height="60" width="220" x="390" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_pagamento" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="registrarPagamento" vertex="1">
+          <mxGeometry height="60" width="240" x="410" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_atraso" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="consultarMensalidadeEmAtraso" vertex="1">
+          <mxGeometry height="70" width="220" x="365" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_consulta" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="consultarMensalidade" vertex="1">
+          <mxGeometry height="70" width="240" x="610" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_historico" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="exibirHistoricoDePagamentos" vertex="1">
+          <mxGeometry height="70" width="240" x="465" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_auth" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_cad" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_cadastro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_pag" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_pagamento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_atraso" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_atraso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_hist" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_historico">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_aluno_auth" edge="1" parent="1" source="actor_aluno" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_aluno_consulta" edge="1" parent="1" source="actor_aluno" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="uc_consulta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJt6Rl1UVszrdGLAmMo2-1" edge="1" parent="1" source="boundary" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="boundary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
